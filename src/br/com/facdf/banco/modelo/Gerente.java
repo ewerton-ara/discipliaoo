@@ -41,7 +41,8 @@ public class Gerente extends Funcionario implements Autenticavel, RecebeBenefici
         return " Gerente " + this.getSenha();
     }
 
-    public void entregarDocumentos():
+    public void entregarDocumentos();
+    {
 
     }
 
