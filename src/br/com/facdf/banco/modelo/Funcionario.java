@@ -10,10 +10,10 @@ public abstract class Funcionario extends Pessoa {
     }
 
     public void pagarSalario(Double salario) {
-        if (salario > 1050) {
+        if (salario > 1045) {
             this.salario = salario;
         } else {
-            System.out.println("Salário deve ser maior que 1045 ");
+            System.out.println("Salario deve ser maior que 1045 ");
         }
     }
 
@@ -27,11 +27,10 @@ public abstract class Funcionario extends Pessoa {
         this.codigoFuncionario = codigoFuncionario;
     }
 
-    @Override
     public String toString() {
         return " Funcionario " + this.getNome();
-
     }
 
     public abstract void entregarDocumentos();
+    
 }

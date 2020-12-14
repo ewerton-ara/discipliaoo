@@ -30,6 +30,7 @@ public class Conta  {
         if (valor > 0) {
             this.saldo += valor;
         }
+        
     }
 
     public void sacar(double valor) {
@@ -59,25 +60,10 @@ public class Conta  {
     public String getCodigoSeguranca() {
 
             return codigoSeguranca;
-
     }
 
-    @Override
     public String toString() {
         return " Conta " + this.codigoConta;
-
     }
-
-
-    /* kennedy 1 ponto
-     *
-     * Classe endereço com 3 atributos
-     *
-     * cep String
-     * logradouro String
-     * numero long
-     *
-     *
-     * */
 
 }

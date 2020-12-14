@@ -21,4 +21,5 @@ public class AnalistaDeRequisitos extends Funcionario implements Autenticavel{
     public void trocarSenha(String senha) {
 
     }
+    
 }

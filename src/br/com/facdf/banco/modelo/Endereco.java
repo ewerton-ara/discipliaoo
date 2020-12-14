@@ -31,13 +31,11 @@ public class Endereco {
         return isComercial;
     }
 
-    public void setComercial(boolean comercial) {
-        isComercial = comercial;
-    }
-
     public void setNumero(long numero) {
         if (numero > 0) {
             this.numero = numero;
         }
+        
     }
+    
 }

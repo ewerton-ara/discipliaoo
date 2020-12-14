@@ -11,17 +11,13 @@ public class Teste {
 
     public static void main (String args []) {
 
-//        git branch nomeDeVoces
-//        git checkout nomeDeVoces
-//        git push origin nomeDeVoces
-
         Gerente gerente = new Gerente();
-        gerente.pagarSalario(6000d);
+        gerente.pagarSalario(5000d);
         System.out.println(gerente.getSalario());
 
 
         Programador programador = new Programador();
-        programador.pagarSalario(2000d);
+        programador.pagarSalario(1000);
         System.out.println("Salario programador " +programador.getSalario());
 
 
@@ -34,38 +30,32 @@ public class Teste {
         List<Pessoa> listaPessoas = new ArrayList<>();
 
         Endereco endereco = new Endereco();
-        endereco.setLogradouro("rua 45");
+        endereco.setLogradouro("rua 4");
 
         Pessoa cliente = new Cliente();
-        cliente.setNome("Jose");
+        cliente.setNome("Valdo");
         listaPessoas.add(cliente);
         cliente.setEndereco(endereco);
 
         Pessoa cliente2 = new Cliente();
-        cliente.setNome("Jose");
+        cliente.setNome("Ewerton");
         cliente.setEndereco(endereco);
 
         Dependente dependente = new Dependente();
-        dependente.setNome("joao");
+        dependente.setNome("joege");
         dependente.setCodigoDependente(15464);
         dependente.setCliente((Cliente)cliente);
 
         Date date = new Date();
         Dependente dependente2 = new Dependente();
         dependente.setDataNascimento(date);
-        dependente2.setNome("Maria");
+        dependente2.setNome("Mariana");
         dependente2.setCodigoDependente(15464);
         dependente2.setCliente((Cliente)cliente);
 
         imprimirInformacoesDependente(dependente);
 
         imprimirInformacoesDependente(dependente2);
-
-
-
-
-
-
 
 
     }

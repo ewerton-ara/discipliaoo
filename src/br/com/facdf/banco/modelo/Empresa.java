@@ -7,8 +7,7 @@ public class Empresa {
     public Empresa(String cnpj) {
         this.cnpj = cnpj;
     }
-
-    @Override
+    
     public String toString() {
         return " Empresa " + cnpj;
     }
