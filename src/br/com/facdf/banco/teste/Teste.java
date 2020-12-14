@@ -17,7 +17,7 @@ public class Teste {
 
 
         Programador programador = new Programador();
-        programador.pagarSalario(1000);
+        programador.pagarSalario(1000d);
         System.out.println("Salario programador " +programador.getSalario());
 
 
