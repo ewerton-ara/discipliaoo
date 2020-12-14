@@ -13,11 +13,11 @@ public class BaseDao {
     }
 
     public void deletar(Object conta) {
-        System.out.println("deletando");
+        System.out.println("Deletando");
     }
 
     public void atualizar(Object conta) {
-        System.out.println("atualizando");
+        System.out.println("Atualizando");
     }
 
     public List<Object> listar() {
